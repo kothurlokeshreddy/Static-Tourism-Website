@@ -1,0 +1,100 @@
+/* Styling the website logo */
+.website-logo {
+    width: 170px;
+    height: 80px;
+}
+
+/* Navbar link styles */
+.nav-link {
+    margin-right: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #323f4b;
+}
+
+/* Profile icon container */
+.navbar-profile {
+    height: 40px;
+    width: 70px;
+    border-radius: 18px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Banner section styles */
+.banner-section {
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media screen and (min-width : 768px) and (max-width : 991px) {
+    .banner-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    .banner-section {
+        padding-left: 70px;
+    }
+}
+
+/* Search form container */
+.form-search-container {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Active tab styles */
+.active-heading {
+    font-weight: 700;
+}
+
+/* Input and form styles */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 5px;
+}
+
+/* Rating star styles */
+.btn-group .btn {
+    font-size: 16px;
+}
+
+.fa-star {
+    font-size: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner-section {
+        text-align: center;
+    }
+
+    .form-search-container {
+        padding: 15px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+}
